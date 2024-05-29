@@ -7,7 +7,7 @@ res:
 	“statuscode”: 200,
 	“message”:  “success”,
 	“data”: [
-            {
+          	{
 			        “id”: number,
 			        “name”: “string”,
               "urlImg": "string",
