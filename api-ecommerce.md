@@ -5,7 +5,7 @@ req: { }
 res:
 {
 	“statuscode”: 200,
-	“message”:  “success”,
+	“message”: “success”,
 	“data”: [
             {
 			        “id”: number,
@@ -292,3 +292,23 @@ res:
          
           ]
 }
+************************************************
+--- Wishlist
+• POST /wishlist
+req: 
+{
+  "productId": number,
+  "customerId": number
+}
+res:
+Thêm thành công:
+{
+  “statuscode”: 200,
+	“message”:  “success”,
+}
+Thêm thất bại:
+{
+  "statuscode": 401,
+  "message": "failed when add to wishlist"
+}
+********************************************
