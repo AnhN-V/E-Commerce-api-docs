@@ -312,3 +312,22 @@ Thêm thất bại:
   "message": "failed when add to wishlist"
 }
 ********************************************
+--- Cart
+• POST /cart
+req: 
+{
+  "quantity": number,
+  "productId": number,
+  "customerId": number
+}
+res:
+Thêm thành công:
+{
+  “statuscode”: 200,
+	“message”:  “success”,
+}
+Thêm thất bại:
+{
+  "statuscode": 401,
+  "message": "failed when add to cart"
+}
